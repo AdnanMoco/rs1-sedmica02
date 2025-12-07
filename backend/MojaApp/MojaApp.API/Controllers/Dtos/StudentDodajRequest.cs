@@ -1,13 +1,10 @@
-﻿namespace MojaApp.API.Models
+﻿namespace MojaApp.API.Controllers.Dtos
 {
-    public class Student
+    public class StudentDodajRequest
     {
-        public int Id { get; set; }
         public string Ime { get; set; }
         public string Prezime { get; set; }
         public int OpstinaRodjenjaId { get; set; }
-        public Opstina OpstinaRodjenja { get; set; }
         public DateTime DatumRodjenja { get; set; }
-        public string SlikaStudenta { get; set; }
     }
 }
